@@ -1,0 +1,99 @@
+page {
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+page[size="A4"] {
+    width: 21cm;
+    height: 29.7cm;
+}
+@media print {
+    body, page {
+        margin: 0;
+        box-shadow: 0;
+    }
+}
+body {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background-color: #e1e0db;
+    font-size: 14px;
+    line-height: 17px;
+    color: #666666;
+}
+img {
+    height: 109px;
+    width: 109px;
+}
+h2{
+    color: black;
+}
+.bold {
+    font-weight: bold;
+}
+.blue{
+    color: #4287f5;
+}
+.container {
+    width: 80%;
+    height: 80px;
+    margin: auto;
+    padding-top: 40px;
+    padding: 20px;
+    position: relative;
+}
+.imagem {
+    width: 50%;
+    height: 110px;
+    float: left;
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+.imagem img{
+    box-shadow: 5px 5px 10px darkgrey;
+}
+.pessoal {
+    margin-left: 15%;
+    height: 110px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+.pessoal p{
+    margin-left: 0px;
+}
+.infos {
+    margin-left: 100px;
+    padding-top: 30px;
+}
+.secao {
+    padding-bottom: 20px;
+}
+p{
+    margin-left: 30px;
+    padding-top: 5px;
+}
+.bordaes {
+    border-left: 2px dotted gray;
+}
+.objetivo {
+    height: 40px;    
+}
+.educacao {
+    height: 95px;
+}
+.cursos {
+    height: 95px;
+}
+.exp {
+    height: 100px;
+}
+.add {
+    height: 40px;
+}
